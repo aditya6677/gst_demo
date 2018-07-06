@@ -23,9 +23,9 @@ app.post('/api/additems', async(req, res)=>{
         tstamp:Date.now()
     }
     Data.create(dt,function(err,res){
-        console.log("Item Added");
+        console.log("Item Added To Database");
     })
-    console.log(name+" "+amount+" "+gst);
+    //console.log(name+" "+amount+" "+gst);
 });
 
 app.get('/',async(req,res)=>{
