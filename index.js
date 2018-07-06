@@ -26,6 +26,7 @@ app.post('/api/additems', async(req, res)=>{
         console.log("Item Added To Database :-)");
     })
     console.log(name+" "+amount+" "+gst);
+    console.log("testing");
 });
 
 app.get('/',async(req,res)=>{
